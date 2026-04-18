@@ -873,24 +873,24 @@ shinyApp(ui, server)
 *Reflection for the teacher dashboard*
 
 -   What do you like about it?
-    -   [add your answer here]
+    -   We like that the information (such as students, attendance, quiz score) are on top because it makes it easier for the professor to see a snapshot of the class. It gives a good summary without needing to interpret any of the graphs. We also really like the scatterplot of clicker engagement vs. quiz performance, since it confirms that students who complete more clicker questions tend to score higher, which is a useful and actionable insight for the instructor.
 -   What would you change or add to it if you had more time?
-    -   [add your answer here]
+    -   If we have more time, we should add a color-coded threshold line on the quiz score trend chart, as in marking scores below a certain value in red, so the instructor can easily spot underperforming sessions without having to mentally interpret the y-axis scale. We would also add hover labels or tooltips so it is easier to read exact values.
 -   What was the biggest challenge you faced? How did you address it?
-    -   [add your answer here]
+    -   The biggest challenge was aggregating the data at the right level because some visualizations needed session-level summaries while others needed student-level summaries, and the year filter had to flow through all of them consistently. We addressed this by pre-computing separate summary tables (class_by_session, inst_student_summary, class_skills) during data preprocessing, then filtering them based on the selected year.
 
 # Estimate time spent
 
 **We want to give students an estimate of how much time this homework will take. Please indicate how many hours you spent to complete this homework here.**
 
--   I spent [insert your time] hours.
+-   We spent 20 hours.
 
 # Generative AI usage
 
 **As stated in the course syllabus, using generative AI is allowed to help you as you complete this homework. We are interested in how it is being used and whether it is helpful for you.**
 
--   How much did you use generative AI (e.g., not at all, some, most, or all the questions) and which one did you use?
--   If you used generative AI, how did you use it and was it helpful?
+-   How much did you use generative AI (e.g., not at all, some, most, or all the questions) and which one did you use? We did not use generative AI.
+-   If you used generative AI, how did you use it and was it helpful? N/A
 
 # Submit Project
 
