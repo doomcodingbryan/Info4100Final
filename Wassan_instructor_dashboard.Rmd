@@ -87,17 +87,31 @@ Go through the planning / sketching process described in the reading about dashb
 *Planning for the student dashboard*
 
 -   For whom? Who will use it and what is their background?
-    -   [add your answer here]
-    -   [add your answer here]
+    -   The student dashboard will be targeted towards students taking the CS 
+    course on Business Intelligence. This can include both undergrad and 
+    graduate students.
+    -   For the most part the students have a basic familiarity with CS and 
+    Business Principles. They likely have varying levels of expertise. We have
+    to create a dashboard that is considerate of this diversity in experience.
+    
 -   Why? What is the goal? What questions to answer?
-    -   [add your answer here]
-    -   [add your answer here]
+     - Help students track their own engagement and quiz performance over 
+     the semester.
+    - Let them see how they compare to classmates so they can self-correct 
+     early if they are falling behind.
+     
 -   What? What data to show and what is its structure?
-    -   [add your answer here]
-    -   [add your answer here]
+    - Quiz scores per session and cumulative, clicker completion and accuracy 
+    rates, attendance, and their incoming skill profile compared to class 
+    averages. All drawn from the quiz and experience datasets filtered to the 
+    selected student.
+
 -   How? How will visualizations support the goal?
-    -   [add your answer here]
-    -   [add your answer here]
+    - A line chart of cumulative quiz points shows trajectory over time. A 
+    bar chart of clicker accuracy per session flags specific sessions 
+    where they struggled. An engagement bar shows attended vs missed sessions. 
+    - A radar/bar chart comparing their skill scores to the class average gives 
+    useful self-awareness context.
 
 *Planning for the teacher dashboard*
 
