@@ -840,11 +840,11 @@ shinyApp(ui, server)
 *Reflection for the student dashboard*
 
 -   What do you like about it?
-    -   [add your answer here]
+    -   We like that the dashboard gives a quick summary of a student’s performance without feeling too crowded. The info boxes at the top make it easy to see the main numbers right away, like attendance, quiz score, and clicker completion. We also think the visual comparisons are interesting, especially the cumulative quiz points and the skill profile vs class average, because they show both progress over time and how a student compares to the class.
 -   What would you change or add to it if you had more time?
-    -   [add your answer here]
+    -   If we had more time, we would make the dashboard more personalized and interactive. For example, we would add short feedback messages like “you are above the class average” or “your attendance dropped in these sessions.” We would also add tooltips or small explanations under some of the graphs so students can understand faster what each chart is showing. Another thing we would improve is the prototype feel, so it is even more clear that this is showing what one student would see, not a system where students can view other students’ data.
 -   What was the biggest challenge you faced? How did you address it?
-    -   [add your answer here]
+    -   The biggest challenge was balancing useful detail with a simple layout. We wanted the dashboard to show enough information to be helpful, but not so much that it felt overwhelming. We addressed this by focusing on a few key measures and using visuals that are easy to read. Another challenge was making the student view feel realistic while still being a prototype, so we added clearer labels to show that it is just a demo of one student’s view.
 
 *Reflection for the teacher dashboard*
 
