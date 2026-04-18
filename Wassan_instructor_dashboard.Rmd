@@ -116,17 +116,39 @@ Go through the planning / sketching process described in the reading about dashb
 *Planning for the teacher dashboard*
 
 -   For whom? Who will use it and what is their background?
-    -   [add your answer here]
-    -   [add your answer here]
+    -   The teacher dashboard is for the course instructor or teaching team, who
+    already understand the course structure, quizzes, and clicker questions but 
+    need a fast way to monitor patterns across the whole class.
+    -   This user is less interested in one specific student and more interested 
+    in identifying overall trends, participation issues, and places where 
+    intervention may be needed.
+
 -   Why? What is the goal? What questions to answer?
-    -   [add your answer here]
-    -   [add your answer here]
+    -   The goal is to help instructors identify trends across sessions, 
+    evaluate how engagement (clicker completion) relates to performance, and 
+    understand the incoming skill profile of their class.
+    -   The dashboard should answer questions like: How is attendance changing 
+    over time? Which sessions had weaker quiz performance? Is clicker engagement 
+    related to quiz success? What kind of skill background does the class enter 
+    with?
+
 -   What? What data to show and what is its structure?
-    -   [add your answer here]
-    -   [add your answer here]
+    -   The dashboard should show class-level summaries from the quiz dataset, 
+    including attendance, average quiz scores, clicker completion, and 
+    session-by-session trends.
+    -   It also incorporates aggregated student data to examine relationships 
+    between engagement and performance (e.g., clicker completion vs quiz 
+    scores), along with skill-survey summaries from the experience dataset to 
+    provide background context about the class.
+
 -   How? How will visualizations support the goal?
-    -   [add your answer here]
-    -   [add your answer here]
+    -   Info boxes give the instructor an immediate snapshot of class size, 
+    attendance, quiz performance, and clicker participation without requiring 
+    interpretation of a full graph.
+    -   Trend charts across sessions help the instructor see when performance or
+    participation changes over time, while the scatterplot and skill chart help 
+    explain relationships between engagement and outcomes and provide context 
+    about the class’s incoming preparation.
 
 **Question 2:** Based on your plan above, make a sketch of what the dashboard would look like. See this week's readings for examples. Be detailed about what kinds of data points and visualizations you want to see in different parts of the page. Consider the user experience and how you should position more general information compared to more specific information, and where you may need some additional explanation to help the viewer understand a graphic, for example. In your sketch, it is useful to give labels to different objects, because in the steps below you can split up work between team members and the labels will help you connect the UI with the data objects. Show your sketches in section to get feedback from the teaching team.
 
@@ -833,7 +855,9 @@ shinyApp(ui, server)
 
 **Question 5:** Add screenshots of your group's dahsboards below using this syntax or simply add them to the Word document after knitting:
 
-![Dashboard Screenshot](example_dash.png)
+![Student Dashboard Screenshot](student_dashboard_screenshot.png)
+
+![Instructor Dashboard Screenshot](instructor_dashboard_screenshot.png)
 
 **Question 6:** Evaluate your group dashboard from the perspective of the instructor (teacher dashboard) and from the perspective of the student (student dashboard). What do you like about it, what would you change or add to it if you had more time?
 
