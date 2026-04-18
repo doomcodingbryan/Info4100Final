@@ -1,7 +1,7 @@
 ---
 title: "Dashboards for Clicker Data"
 author: '[[Chanwoo Yang (cy573), Jocelyn Wong (jcw353), Carrie Zheng (cz376), 
-Bryan Chae (byc27), Jibran Khan (jhk297), Wassan Nasreddin (wn66), ]]'
+Bryan Chae (byc27), Jibran Khan (jhk297), Wassan Nasreddin (wn66)]]'
 subtitle: INFO 4100 Learning Analytics
 output:
   word_document: default
